@@ -28,7 +28,7 @@ percent_c = str('{:.7f}'.format(int(infections_c) / int(population_c))+(" %"))
 percent_w = str('{:.7f}'.format(int(infections_w) / int(population_w))+(" %"))
 
     
-(print(r"""
+print(r"""
  ╔═════════════════════════════════════════════════╗
  ║     ██████╗  ██████╗ ██████╗  ██████╗ ████████╗ ║
  ║     ██╔══██╗██╔═══██╗██╔══██╗██╔═══██╗╚══██╔══╝ ║
@@ -37,8 +37,9 @@ percent_w = str('{:.7f}'.format(int(infections_w) / int(population_w))+(" %"))
  ║ Mr. ██║  ██║╚██████╔╝██████╔╝╚██████╔╝   ██║    ║
  ║     ╚═╝  ╚═╝ ╚═════╝ ╚═════╝  ╚═════╝    ╚═╝    ║
  ╚═════════════════════════════════════════════════╝                            
-           Live Corona_Virus Counter Tool""")
-print("          Tool by Mr. Robot")
+           Live Corona_Virus Counter Tool
+                 Tool by Mr. Robot""")
+print(" ")
 print(" Cases in " +(last))
 print((" Infected : ") + infections_c + (", Deaths: ") + deaths_c+(", Survived: ")+survived_c)
 print(" Infected Population Worldwide")
